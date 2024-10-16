@@ -1,4 +1,4 @@
-
+import Image from "next/image"
 export default function Projects() {
   return (
     <>
@@ -11,22 +11,22 @@ export default function Projects() {
         <div className='flex justify-center max-h-full border-4 p-4 border-white bg-slate-50 lg:mx-56 rounded-3xl lg:my-10 overflow-hidden'>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4 ">
             <div>
-              <img className="h-auto max-w-full rounded-lg" src='/page5/Rectangle1.svg' alt="" />
+              <Image width={400} height={400} className="h-auto max-w-full rounded-lg" src='/page5/Rectangle1.svg' alt="" />
             </div>
             <div>
-              <img className="h-auto max-w-full rounded-lg" src='/page5/Rectangle2.svg' alt="" />
+              <Image width={400} height={400} className="h-auto max-w-full rounded-lg" src='/page5/Rectangle2.svg' alt="" />
             </div>
             <div>
-              <img className="h-auto max-w-full rounded-lg" src='/page5/Rectangle3.svg' alt="" />
+              <Image width={400} height={400} className="h-auto max-w-full rounded-lg" src='/page5/Rectangle3.svg' alt="" />
             </div>
             <div>
-              <img className="h-auto max-w-full rounded-lg" src='/page5/Rectangle4.svg' alt="" />
+              <Image width={400} height={400} className="h-auto max-w-full rounded-lg" src='/page5/Rectangle4.svg' alt="" />
             </div>
             <div>
-              <img className="h-auto max-w-full rounded-lg" src='/page5/Rectangle5.svg' alt="" />
+              <Image width={400} height={400} className="h-auto max-w-full rounded-lg" src='/page5/Rectangle5.svg' alt="" />
             </div>
             <div>
-              <img className="h-auto max-w-full rounded-lg" src='/page5/Rectangle6.svg' alt="" />
+              <Image width={400} height={400} className="h-auto max-w-full rounded-lg" src='/page5/Rectangle6.svg' alt="" />
             </div>
           </div>
         </div>

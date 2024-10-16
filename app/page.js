@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function Home() {
   return (
     <>
@@ -12,17 +13,17 @@ export default function Home() {
           <button className="border rounded-md px-2 py-1 bg-slate-800 text-white">Check Demo</button>
         </div>
         <div className="mr-0">
-          <img width={900} src='page1/illustration.svg'/>
+          <Image width={900} height={900} src='/page1/illustration.svg'/>
         </div>
       </section>
 
       </div>
       <footer className="flex gap-20 justify-center items-center border-t-2 py-8">
-        <img width={125} src='page1/google.png' />
-        <img width={125} src='page1/netflix.png' />
-        <img width={125} src='page1/microsoft.png' />
-        <img width={125} src='page1/mailbuster.png' />
-        <img width={125} src='page1/themewagon.png' />
+        <Image width={125} height={125} src='/page1/google.png' />
+        <Image width={125} height={125} src='/page1/netflix.png' />
+        <Image width={125} height={125} src='/page1/microsoft.png' />
+        <Image width={125} height={125} src='/page1/mailbuster.png' />
+        <Image width={125} height={125} src='/page1/themewagon.png' />
       </footer>
     </>
   );

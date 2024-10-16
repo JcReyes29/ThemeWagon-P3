@@ -1,4 +1,4 @@
-
+import Image from "next/image"
 export default function Features() {
   return (
     <>
@@ -10,32 +10,32 @@ export default function Features() {
         <div className='flex flex-wrap gap-10 sm:m-auto md:mx-14 justify-center '>
 
           <div href="#" className="flex flex-col gap-3 items-center max-w-72 p-4 rounded-lg">
-            <img width={90} src='/page4/Icon.svg' />
+            <Image width={90} height={90} alt="" src='/page4/Icon.svg' />
             <h5 className="mt-2 font-semibold text-gray-950 text-center">Encrypted Mail</h5>
             <p className="text-sm text-gray-700 dark:text-gray-400 text-center">A process of encrypting email communications</p>
           </div>
           <div href="#" className="flex flex-col gap-3 items-center max-w-72 p-4 rounded-lg">
-            <img width={90} src='/page4/Icon1.svg' />
+            <Image width={90} height={90} alt="" src='/page4/Icon1.svg' />
             <h5 className="mt-2 font-semibold text-gray-950 text-center">Display Sharing</h5>
             <p className="text-sm text-gray-700 dark:text-gray-400 text-center">With other participants, you may share your screen</p>
           </div>
           <div href="#" className="flex flex-col gap-3 items-center max-w-72 p-4 rounded-lg">
-            <img width={90} src='/page4/Icon2.svg' />
+            <Image width={90} height={90} alt="" src='/page4/Icon2.svg' />
             <h5 className="mt-2 font-semibold text-gray-950 text-center">Private Notebook</h5>
             <p className="text-sm text-gray-700 dark:text-gray-400 text-center">Private Notebook is an application that is protected</p>
           </div>
           <div href="#" className="flex flex-col gap-3 items-center max-w-72 p-4 rounded-lg">
-            <img width={90} src='/page4/Icon3.svg' />
+            <Image width={90} height={90} alt="" src='/page4/Icon3.svg' />
             <h5 className="mt-2 font-semibold text-gray-950 text-center">App App Assitance</h5>
             <p className="text-sm text-gray-700 dark:text-gray-400 text-center">App Assistant is quickly and effectively ran the system</p>
           </div>
           <div href="#" className="flex flex-col gap-3 items-center max-w-72 p-4 rounded-lg">
-            <img width={90} src='/page4/Icon4.svg' />
+            <Image width={90} height={90} alt="" src='/page4/Icon4.svg' />
             <h5 className="mt-2 font-semibold text-gray-950 text-center">Multiple Printing</h5>
             <p className="text-sm text-gray-700 dark:text-gray-400 text-center">Our canvas prints are crafted on top-notch canvas.</p>
           </div>
           <div href="#" className="flex flex-col gap-3 items-center max-w-72 p-4 rounded-lg">
-            <img width={90} src='/page4/Icon5.svg' />
+            <Image width={90} height={90} alt="" src='/page4/Icon5.svg' />
             <h5 className="mt-2 font-semibold text-gray-950 text-center">Free Sketch</h5>
             <p className="text-sm text-gray-700 dark:text-gray-400 text-center">Our canvas prints are crafted on top-notch canvas</p>
           </div>
