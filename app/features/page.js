@@ -5,7 +5,7 @@ export default function Features() {
       <div className='flex flex-col gap-6 bg-slate-50'>
         <header className='flex flex-col items-center py-3 gap-4 md:mx-96 px-28 sm:mx-auto'>
           <h1 className='text-3xl font-semibold font-sans'>Features</h1>
-          <p className='dark:text-gray-500 font-bold text-center'>We provide a number of excellent features that will undoubtedly improve the user experience. We also provide a better support system</p>
+          <p className='dark:text-gray-500 font-medium text-center'>We provide a number of excellent features that will undoubtedly improve the user experience. We also provide a better support system</p>
         </header>
         <div className='flex flex-wrap gap-10 sm:m-auto md:mx-14 justify-center '>
 

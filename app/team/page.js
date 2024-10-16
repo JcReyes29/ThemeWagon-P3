@@ -5,7 +5,7 @@ export default function Team() {
       <div className="bg-slate-50">
         <header className='flex flex-col items-center py-3 gap-4 md:mx-96 px-28 sm:mx-auto'>
           <h1 className='text-3xl font-semibold font-sans'>Our Team</h1>
-          <p className='dark:text-gray-500 font-semibold text-center'>People from various origins, cultures, and personalities make up our team. This blend makes it a powerful team</p>
+          <p className='dark:text-gray-500 font-medium text-center'>People from various origins, cultures, and personalities make up our team. This blend makes it a powerful team</p>
         </header>
         <div className='flex flex-wrap sm:m-auto md:mx-14 md:my-5 justify-center '>
 

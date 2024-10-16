@@ -8,7 +8,7 @@ export default function Services() {
 
         <header className='flex flex-col items-center py-3 gap-4 md:mx-96 px-28 sm:mx-auto'>
           <h1 className='text-3xl font-semibold font-sans'>Service</h1>
-          <p className='dark:text-gray-500 font-bold text-center'>We offer youth with chances for career development in their practice. We also support a wide range of services to ensure client satisfaction</p>
+          <p className='dark:text-gray-500 font-medium text-center'>We offer youth with chances for career development in their practice. We also support a wide range of services to ensure client satisfaction</p>
         </header>
         <div className='flex justify-center gap-5 max-sm:grid'>
           <div className="max-w-80 bg-slate-50 border border-white rounded-3xl shadow  dark:border-4 flex flex-col items-center px-5 py-6">
