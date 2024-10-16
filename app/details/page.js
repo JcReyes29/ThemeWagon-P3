@@ -6,7 +6,7 @@ export default function Details() {
       <div className='flex flex-col justify-center items-center gap-6 my-3 bg-slate-50'>
 
         <div className="flex flex-col items-center bg-transparent rounded-lg  md:flex-row md:max-w-2xl   gap-12 p-2">
-          <Image width={72} height={72} className="object-cover w-full rounded-t-lg  md:h-auto md:w-72 md:rounded-none md:rounded-s-lg" src='/page3/image.svg' alt="" />
+          <Image width={72} height={72} className="object-cover w-full rounded-t-lg  md:h-auto md:w-72 md:rounded-none md:rounded-s-lg" src='/page3/Image.svg' alt="" />
           <div className="flex flex-col justify-between py-4 leading-normal gap-2">
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">A creative team which builds stunning UI/UX</h5>
             <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 text-xs">Today,Id like to show you some incredible Sign Up screen app UI ideas and concepts that offer a modern user experience. The most stunning, cutting-edge UI/UX</p>
@@ -26,7 +26,7 @@ export default function Details() {
               Read more
             </div>
           </div>
-          <Image width={72} height={72} className="object-cover w-full rounded-t-lg  md:h-auto md:w-72 md:rounded-none md:rounded-s-lg" src='/page3/image2.svg' alt="" />
+          <Image width={72} height={72} className="object-cover w-full rounded-t-lg  md:h-auto md:w-72 md:rounded-none md:rounded-s-lg" src='/page3/Image2.svg' alt="" />
         </div>
       </div>
     </>

@@ -13,7 +13,7 @@ export default function Home() {
           <button className="border rounded-md px-2 py-1 bg-slate-800 text-white">Check Demo</button>
         </div>
         <div className="mr-0">
-          <Image width={900} height={900} src='/page1/illustration.svg'/>
+          <Image width={900} height={900} src='/page1/Illustration.svg'/>
         </div>
       </section>
 
