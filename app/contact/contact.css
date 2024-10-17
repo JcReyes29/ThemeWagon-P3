@@ -1,0 +1,10 @@
+.fondo-imagen {
+    background-image: url('/page8/Background.svg');
+    background-size: cover;
+    /* Para cubrir toda el área */
+    background-position: end;
+    /* Centrar la imagen */
+    height: 60vh;
+    width:60%;
+    margin-left: 40%;
+}
