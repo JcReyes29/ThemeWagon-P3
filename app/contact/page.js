@@ -3,7 +3,7 @@ import './contact.css'
 export default function Contact() {
   return (
     <>
-      <div className=''>
+      <div className='bg-gradient-to-b from-slate-50 to-white'>
         <header className='flex flex-col items-center py-3 gap-4 md:mx-96 px-28 sm:mx-auto'>
           <h1 className='text-3xl font-semibold font-sans'>Contact Us</h1>
         </header>
